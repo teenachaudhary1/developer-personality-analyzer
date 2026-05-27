@@ -1,16 +1,89 @@
-# React + Vite
+# 🧠 Developer Personality Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun web app that analyzes a developer's GitHub profile and generates a unique "personality" based on their coding activity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Enter any GitHub username
+- 📊 Fetch real-time data using GitHub API
+- 👤 Display profile info (name, avatar, repo count)
+- 🧠 Generate developer personality:
+  - 🔥 Hardcore Builder
+  - 🌱 Beginner Explorer
+  - 🌟 Famous Dev (based on followers)
+- ⚡ Simple and clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React.js
+- Language: JavaScript
+- API: GitHub REST API
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/dev-analyzer.git
+```
+
+2. Go to project folder:
+```bash
+cd dev-analyzer
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the app:
+```bash
+npm start
+```
+
+---
+
+
+## 💡 How it Works
+
+- User enters a GitHub username
+- App fetches data from GitHub API
+- Based on:
+  - Number of repositories
+  - Followers
+- It assigns a fun personality type
+
+---
+
+## 📈 Future Improvements
+
+- Add more personality types
+- Show language usage charts
+- Improve UI/UX design
+- Add share feature
+
+---
+
+## 🤝 Contributing
+
+This is a beginner project, but suggestions and improvements are welcome!
+Feel free to fork the repository and try your own ideas.
+
+---
+
+## ⭐ Acknowledgements
+
+- GitHub API
+- Inspiration from real developer habits
+
+---
+
+## 📬 Contact
+
+If you like this project, give it a ⭐ on GitHub!
